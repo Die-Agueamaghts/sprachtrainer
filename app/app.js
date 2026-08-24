@@ -14,6 +14,7 @@ const SPEECH_LANGS = { de: "de-DE", en: "en-US", fr: "fr-FR", ar: "ar-SA" };
 const state = {
   topicsIndex: [],
   topicSentences: {}, // id -> array of sentences
+  topicsLoaded: false,
   settings: null, // { source, targets[], mode, shuffle, limit }
   pool: [], // sentences for current session
   current: 0,
@@ -77,7 +78,8 @@ function buildLangChips() {
 }
 
 function syncTargetAvailability() {
-  const source = $('input[name="sourceLang"]:checked')?.value;
+  const sourceEl = $('input[name="sourceLang"]:checked');
+  const source = sourceEl ? sourceEl.value : undefined;
   $$('input[name="targetLang"]').forEach((cb) => {
     if (cb.value === source) {
       cb.checked = false;
@@ -85,6 +87,13 @@ function syncTargetAvailability() {
     } else {
       cb.disabled = false;
     }
+  });
+}
+
+function syncSelectionClasses() {
+  $$(".mode-card, .topic-card").forEach((card) => {
+    const input = $("input", card);
+    card.classList.toggle("is-selected", input && input.checked);
   });
 }
 
@@ -127,6 +136,8 @@ async function loadTopicsIndex() {
       }
     }),
   );
+  state.topicsLoaded = true;
+  $("#startBtn").disabled = false;
 }
 
 function escapeHtml(str) {
@@ -175,9 +186,11 @@ function restoreLastSettings() {
 
 /* ---------------- Start session ---------------- */
 function gatherSettings() {
-  const source = $('input[name="sourceLang"]:checked')?.value;
+  const sourceEl = $('input[name="sourceLang"]:checked');
+  const source = sourceEl ? sourceEl.value : undefined;
   const targets = $$('input[name="targetLang"]:checked').map((cb) => cb.value);
-  const mode = $('input[name="mode"]:checked')?.value || "learn";
+  const modeEl = $('input[name="mode"]:checked');
+  const mode = (modeEl ? modeEl.value : null) || "learn";
   const topics = $$('input[name="topic"]:checked').map((cb) => cb.value);
   const shuffle = $("#shuffleToggle").checked;
   const limit = parseInt($("#sessionLength").value, 10) || 0;
@@ -194,6 +207,10 @@ function shuffleArray(arr) {
 }
 
 $("#startBtn").addEventListener("click", () => {
+  if (!state.topicsLoaded) {
+    showSetupError("Die Sätze werden noch geladen. Bitte kurz warten.");
+    return;
+  }
   const settings = gatherSettings();
   const errorEl = $("#setupError");
   errorEl.hidden = true;
@@ -587,9 +604,17 @@ $("#newSelectionBtn").addEventListener("click", () => {
   showScreen("setupScreen");
 });
 
+document.addEventListener("change", (event) => {
+  if (event.target.matches('input[name="mode"], input[name="topic"]')) {
+    syncSelectionClasses();
+  }
+});
+
 /* ---------------- Init ---------------- */
 (async function init() {
   buildLangChips();
+  $("#startBtn").disabled = true;
   await loadTopicsIndex();
   restoreLastSettings();
+  syncSelectionClasses();
 })();
