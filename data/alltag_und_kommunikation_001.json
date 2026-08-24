@@ -1,0 +1,665 @@
+{
+  "id": "alltag_und_kommunikation_001",
+  "sentences": [
+    {
+      "fr": "Je lui ai expliqué la situation en détail.",
+      "de": "Ich habe ihm die Situation ausführlich erklärt.",
+      "en": "I explained the situation to him in detail.",
+      "ar": "شرحت له الوضع بالتفصيل."
+    },
+    {
+      "fr": "Je lui ai expliqué pourquoi j'avais pris cette décision.",
+      "de": "Ich habe ihm erklärt, warum ich diese Entscheidung getroffen hatte.",
+      "en": "I explained to him why I had made that decision.",
+      "ar": "شرحت له لماذا اتخذت ذلك القرار."
+    },
+    {
+      "fr": "Je lui ai expliqué que ce n'était pas de ma faute.",
+      "de": "Ich habe ihm erklärt, dass es nicht meine Schuld war.",
+      "en": "I explained to him that it was not my fault.",
+      "ar": "شرحت له أن الأمر لم يكن خطئي."
+    },
+    {
+      "fr": "Je lui ai expliqué calmement mon point de vue.",
+      "de": "Ich habe ihm ruhig meinen Standpunkt erklärt.",
+      "en": "I calmly explained my point of view to him.",
+      "ar": "شرحت له وجهة نظري بهدوء."
+    },
+    {
+      "fr": "Je lui ai expliqué ce que j'attendais de lui.",
+      "de": "Ich habe ihm erklärt, was ich von ihm erwartete.",
+      "en": "I explained to him what I expected from him.",
+      "ar": "شرحت له ما كنت أتوقعه منه."
+    },
+    {
+      "fr": "Elle s'est comportée de manière irresponsable.",
+      "de": "Sie hat sich verantwortungslos verhalten.",
+      "en": "She behaved irresponsibly.",
+      "ar": "لقد تصرفت بطريقة غير مسؤولة."
+    },
+    {
+      "fr": "Elle s'est comportée comme si elle n'était pas concernée.",
+      "de": "Sie hat sich verhalten, als würde sie das nichts angehen.",
+      "en": "She behaved as if it had nothing to do with her.",
+      "ar": "تصرفت وكأن الأمر لا يعنيها."
+    },
+    {
+      "fr": "Ils étaient au courant depuis le début.",
+      "de": "Sie wussten von Anfang an Bescheid.",
+      "en": "They knew from the beginning.",
+      "ar": "كانوا على علم بالأمر منذ البداية."
+    },
+    {
+      "fr": "Ils étaient au courant depuis le début, mais ils ont préféré garder le silence.",
+      "de": "Sie wussten von Anfang an Bescheid, zogen es aber vor zu schweigen.",
+      "en": "They knew from the beginning but preferred to keep silent.",
+      "ar": "كانوا على علم منذ البداية، لكنهم فضلوا التزام الصمت."
+    },
+    {
+      "fr": "Ils étaient au courant que je n'étais pas d'accord.",
+      "de": "Sie wussten, dass ich nicht einverstanden war.",
+      "en": "They knew that I did not agree.",
+      "ar": "كانوا يعلمون أنني لم أكن موافقًا."
+    },
+    {
+      "fr": "Il n'a même pas pris la peine de m'appeler.",
+      "de": "Er hat sich nicht einmal die Mühe gemacht, mich anzurufen.",
+      "en": "He did not even bother to call me.",
+      "ar": "لم يكلف نفسه حتى عناء الاتصال بي."
+    },
+    {
+      "fr": "Malgré ses promesses, il ne nous a pas appelés.",
+      "de": "Trotz seiner Versprechen hat er uns nicht angerufen.",
+      "en": "Despite his promises, he did not call us.",
+      "ar": "رغم وعوده، لم يتصل بنا."
+    },
+    {
+      "fr": "Mais il ne nous a pas appelés.",
+      "de": "Aber er hat uns nicht angerufen.",
+      "en": "But he did not call us.",
+      "ar": "لكنه لم يتصل بنا."
+    },
+    {
+      "fr": "Mais il ne nous a pas appelés pour nous rassurer.",
+      "de": "Aber er hat uns nicht angerufen, um uns zu beruhigen.",
+      "en": "But he did not call us to reassure us.",
+      "ar": "لكنه لم يتصل بنا ليطمئننا."
+    },
+    {
+      "fr": "Il ne cesse de se plaindre.",
+      "de": "Er hört nicht auf, sich zu beschweren.",
+      "en": "He never stops complaining.",
+      "ar": "لا يتوقف عن الشكوى."
+    },
+    {
+      "fr": "Il ne cesse de m'interrompre quand je parle.",
+      "de": "Er unterbricht mich ständig, wenn ich spreche.",
+      "en": "He keeps interrupting me when I speak.",
+      "ar": "لا يتوقف عن مقاطعتي عندما أتحدث."
+    },
+    {
+      "fr": "Il ne cesse de me critiquer.",
+      "de": "Er hört nicht auf, mich zu kritisieren.",
+      "en": "He never stops criticizing me.",
+      "ar": "لا يتوقف عن انتقادي."
+    },
+    {
+      "fr": "Il ne cesse de poser des questions inutiles.",
+      "de": "Er stellt ständig unnötige Fragen.",
+      "en": "He keeps asking pointless questions.",
+      "ar": "لا يتوقف عن طرح أسئلة غير ضرورية."
+    },
+    {
+      "fr": "Elle se comporte de manière étrange ces derniers temps.",
+      "de": "Sie verhält sich in letzter Zeit seltsam.",
+      "en": "She has been behaving strangely lately.",
+      "ar": "تتصرف بغرابة في الآونة الأخيرة."
+    },
+    {
+      "fr": "Elle se comporte avec arrogance.",
+      "de": "Sie verhält sich arrogant.",
+      "en": "She behaves arrogantly.",
+      "ar": "تتصرف بغرور."
+    },
+    {
+      "fr": "Elle se comporte comme si elle m'avait toujours connu.",
+      "de": "Sie verhält sich, als hätte sie mich schon immer gekannt.",
+      "en": "She behaves as if she had always known me.",
+      "ar": "تتصرف وكأنها كانت تعرفني دائمًا."
+    },
+    {
+      "fr": "Elle se comporte comme si elle cachait quelque chose.",
+      "de": "Sie verhält sich, als würde sie etwas verbergen.",
+      "en": "She behaves as if she were hiding something.",
+      "ar": "تتصرف وكأنها تخفي شيئًا."
+    },
+    {
+      "fr": "Je ne supporte pas la façon dont il se comporte avec moi.",
+      "de": "Ich ertrage nicht, wie er sich mir gegenüber verhält.",
+      "en": "I cannot stand the way he treats me.",
+      "ar": "لا أتحمل الطريقة التي يتعامل بها معي."
+    },
+    {
+      "fr": "Il se comporte bizarrement depuis notre dernière dispute.",
+      "de": "Seit unserem letzten Streit verhält er sich seltsam.",
+      "en": "He has behaved strangely since our last argument.",
+      "ar": "يتصرف بغرابة منذ شجارنا الأخير."
+    },
+    {
+      "fr": "Il ne sert à rien de se précipiter dans une décision importante.",
+      "de": "Es bringt nichts, eine wichtige Entscheidung zu überstürzen.",
+      "en": "There is no point in rushing an important decision.",
+      "ar": "لا فائدة من التسرع في اتخاذ قرار مهم."
+    },
+    {
+      "fr": "J'ai peur de le déranger.",
+      "de": "Ich habe Angst, ihn zu stören.",
+      "en": "I am afraid of bothering him.",
+      "ar": "أخشى أن أزعجه."
+    },
+    {
+      "fr": "Je n'ai pas osé le contacter.",
+      "de": "Ich habe mich nicht getraut, ihn zu kontaktieren.",
+      "en": "I did not dare contact him.",
+      "ar": "لم أجرؤ على الاتصال به."
+    },
+    {
+      "fr": "Il avait l'air préoccupé, alors je n'ai pas osé le déranger.",
+      "de": "Er sah besorgt aus, deshalb habe ich mich nicht getraut, ihn zu stören.",
+      "en": "He looked worried, so I did not dare bother him.",
+      "ar": "بدا قلقًا، لذلك لم أجرؤ على إزعاجه."
+    },
+    {
+      "fr": "Il était tard, alors je n'ai pas osé l'appeler.",
+      "de": "Es war spät, deshalb habe ich mich nicht getraut, ihn anzurufen.",
+      "en": "It was late, so I did not dare call him.",
+      "ar": "كان الوقت متأخرًا، لذلك لم أجرؤ على الاتصال به."
+    },
+    {
+      "fr": "Je n'ose pas l'interrompre pendant son travail.",
+      "de": "Ich wage es nicht, ihn bei der Arbeit zu unterbrechen.",
+      "en": "I do not dare interrupt him while he is working.",
+      "ar": "لا أجرؤ على مقاطعته أثناء عمله."
+    },
+    {
+      "fr": "Je n'ai pas voulu le déranger sans une raison valable.",
+      "de": "Ich wollte ihn nicht ohne triftigen Grund stören.",
+      "en": "I did not want to bother him without a good reason.",
+      "ar": "لم أرد إزعاجه دون سبب وجيه."
+    },
+    {
+      "fr": "J'ai du mal à me concentrer.",
+      "de": "Ich kann mich nur schwer konzentrieren.",
+      "en": "I have trouble concentrating.",
+      "ar": "أجد صعوبة في التركيز."
+    },
+    {
+      "fr": "J'ai du mal à me concentrer quand je suis fatigué.",
+      "de": "Ich kann mich nur schwer konzentrieren, wenn ich müde bin.",
+      "en": "I have trouble concentrating when I am tired.",
+      "ar": "أجد صعوبة في التركيز عندما أكون متعبًا."
+    },
+    {
+      "fr": "J'ai du mal à prendre une décision.",
+      "de": "Ich habe Schwierigkeiten, eine Entscheidung zu treffen.",
+      "en": "I have trouble making a decision.",
+      "ar": "أجد صعوبة في اتخاذ قرار."
+    },
+    {
+      "fr": "J'ai du mal à me lever tôt.",
+      "de": "Ich habe Schwierigkeiten, früh aufzustehen.",
+      "en": "I have trouble getting up early.",
+      "ar": "أجد صعوبة في الاستيقاظ مبكرًا."
+    },
+    {
+      "fr": "J'ai du mal à comprendre ce que tu veux dire.",
+      "de": "Ich habe Schwierigkeiten zu verstehen, was du meinst.",
+      "en": "I have trouble understanding what you mean.",
+      "ar": "أجد صعوبة في فهم ما تعنيه."
+    },
+    {
+      "fr": "J'ai du mal à organiser mon temps.",
+      "de": "Ich habe Schwierigkeiten, meine Zeit zu organisieren.",
+      "en": "I have trouble organizing my time.",
+      "ar": "أجد صعوبة في تنظيم وقتي."
+    },
+    {
+      "fr": "Je préfère prendre mon temps avant de prendre une décision importante.",
+      "de": "Ich lasse mir lieber Zeit, bevor ich eine wichtige Entscheidung treffe.",
+      "en": "I prefer to take my time before making an important decision.",
+      "ar": "أفضل أن آخذ وقتي قبل اتخاذ قرار مهم."
+    },
+    {
+      "fr": "Il vaut mieux éviter les discussions inutiles.",
+      "de": "Es ist besser, unnötige Diskussionen zu vermeiden.",
+      "en": "It is better to avoid pointless discussions.",
+      "ar": "من الأفضل تجنب النقاشات غير الضرورية."
+    },
+    {
+      "fr": "Elle prend toujours quelques minutes pour organiser sa journée.",
+      "de": "Sie nimmt sich immer ein paar Minuten, um ihren Tag zu organisieren.",
+      "en": "She always takes a few minutes to organize her day.",
+      "ar": "تخصص دائمًا بضع دقائق لتنظيم يومها."
+    },
+    {
+      "fr": "Tu peux compter sur moi à tout moment.",
+      "de": "Du kannst jederzeit auf mich zählen.",
+      "en": "You can count on me at any time.",
+      "ar": "يمكنك الاعتماد عليّ في أي وقت."
+    },
+    {
+      "fr": "Il fait attention à ce qu'il dit.",
+      "de": "Er achtet darauf, was er sagt.",
+      "en": "He is careful about what he says.",
+      "ar": "ينتبه إلى ما يقوله."
+    },
+    {
+      "fr": "Je commence à m'habituer à cette routine.",
+      "de": "Ich gewöhne mich langsam an diese Routine.",
+      "en": "I am beginning to get used to this routine.",
+      "ar": "بدأت أعتاد على هذا الروتين."
+    },
+    {
+      "fr": "Il est très discret dans certaines situations.",
+      "de": "In manchen Situationen ist er sehr zurückhaltend.",
+      "en": "He is very discreet in some situations.",
+      "ar": "إنه متحفظ جدًا في بعض المواقف."
+    },
+    {
+      "fr": "Il essaie toujours de donner le meilleur de lui-même.",
+      "de": "Er versucht immer, sein Bestes zu geben.",
+      "en": "He always tries to do his best.",
+      "ar": "يحاول دائمًا تقديم أفضل ما لديه."
+    },
+    {
+      "fr": "Tu peux prendre une pause si tu es fatigué.",
+      "de": "Du kannst eine Pause machen, wenn du müde bist.",
+      "en": "You can take a break if you are tired.",
+      "ar": "يمكنك أخذ استراحة إذا كنت متعبًا."
+    },
+    {
+      "fr": "Fais attention à la façon dont tu traverses.",
+      "de": "Pass gut auf, wie du die Straße überquerst.",
+      "en": "Be careful how you cross the street.",
+      "ar": "انتبه إلى طريقة عبورك الطريق."
+    },
+    {
+      "fr": "Nous essayons de rester en contact malgré la distance.",
+      "de": "Wir versuchen trotz der Entfernung in Kontakt zu bleiben.",
+      "en": "We try to stay in touch despite the distance.",
+      "ar": "نحاول البقاء على تواصل رغم المسافة."
+    },
+    {
+      "fr": "Je préfère éviter les personnes négatives.",
+      "de": "Ich vermeide lieber negative Menschen.",
+      "en": "I prefer to avoid negative people.",
+      "ar": "أفضل تجنب الأشخاص السلبيين."
+    },
+    {
+      "fr": "Nous essayons d'apprendre quelque chose de nouveau chaque jour.",
+      "de": "Wir versuchen, jeden Tag etwas Neues zu lernen.",
+      "en": "We try to learn something new every day.",
+      "ar": "نحاول تعلم شيء جديد كل يوم."
+    },
+    {
+      "fr": "Tu peux lui parler franchement sans problème.",
+      "de": "Du kannst offen mit ihm sprechen, kein Problem.",
+      "en": "You can speak frankly with him without any problem.",
+      "ar": "يمكنك التحدث معه بصراحة دون مشكلة."
+    },
+    {
+      "fr": "Il a commencé à changer certaines habitudes.",
+      "de": "Er hat angefangen, einige Gewohnheiten zu ändern.",
+      "en": "He has started changing some habits.",
+      "ar": "بدأ يغير بعض العادات."
+    },
+    {
+      "fr": "Tu peux lui expliquer la situation calmement.",
+      "de": "Du kannst ihm die Situation ruhig erklären.",
+      "en": "You can explain the situation to him calmly.",
+      "ar": "يمكنك أن تشرح له الوضع بهدوء."
+    },
+    {
+      "fr": "Il essaie de comprendre ce qui s'est passé.",
+      "de": "Er versucht zu verstehen, was passiert ist.",
+      "en": "He is trying to understand what happened.",
+      "ar": "يحاول فهم ما حدث."
+    },
+    {
+      "fr": "Il essaie de cacher son anxiété / son inquiétude.",
+      "de": "Er versucht, seine Angst / seine Sorgen zu verbergen.",
+      "en": "He is trying to hide his anxiety / his worry.",
+      "ar": "يحاول إخفاء قلقه / مخاوفه."
+    },
+    {
+      "fr": "Tu peux toujours changer d'avis plus tard.",
+      "de": "Du kannst deine Meinung später immer noch ändern.",
+      "en": "You can always change your mind later.",
+      "ar": "يمكنك دائمًا تغيير رأيك لاحقًا."
+    },
+    {
+      "fr": "Elle essaie d'améliorer sa façon de parler.",
+      "de": "Sie versucht, ihre Ausdrucksweise zu verbessern.",
+      "en": "She is trying to improve the way she speaks.",
+      "ar": "تحاول تحسين طريقة كلامها."
+    },
+    {
+      "fr": "Elle parvient à gérer plusieurs tâches en même temps.",
+      "de": "Sie schafft es, mehrere Aufgaben gleichzeitig zu erledigen.",
+      "en": "She manages to handle several tasks at the same time.",
+      "ar": "تتمكن من إنجاز عدة مهام في الوقت نفسه."
+    },
+    {
+      "fr": "Il n'était pas au courant.",
+      "de": "Er wusste nichts davon.",
+      "en": "He did not know about it.",
+      "ar": "لم يكن على علم بالأمر."
+    },
+    {
+      "fr": "Ça ne dépend pas de moi.",
+      "de": "Das hängt nicht von mir ab.",
+      "en": "It does not depend on me.",
+      "ar": "هذا لا يعتمد عليّ."
+    },
+    {
+      "fr": "Il faut s'habituer à cela.",
+      "de": "Man muss sich daran gewöhnen.",
+      "en": "You have to get used to it.",
+      "ar": "يجب أن تعتاد على ذلك."
+    },
+    {
+      "fr": "Rien n'est garanti.",
+      "de": "Nichts ist garantiert.",
+      "en": "Nothing is guaranteed.",
+      "ar": "لا شيء مضمون."
+    },
+    {
+      "fr": "Il a fini par accepter.",
+      "de": "Am Ende hat er zugestimmt.",
+      "en": "He eventually agreed.",
+      "ar": "وافق في النهاية."
+    },
+    {
+      "fr": "Je n'en peux plus.",
+      "de": "Ich kann nicht mehr.",
+      "en": "I cannot take it anymore.",
+      "ar": "لم أعد أحتمل."
+    },
+    {
+      "fr": "Ça en vaut la peine.",
+      "de": "Es lohnt sich.",
+      "en": "It is worth it.",
+      "ar": "الأمر يستحق العناء."
+    },
+    {
+      "fr": "Il s'en est rendu compte.",
+      "de": "Er hat es bemerkt.",
+      "en": "He realized it.",
+      "ar": "أدرك ذلك."
+    },
+    {
+      "fr": "Je vais en parler.",
+      "de": "Ich werde darüber sprechen.",
+      "en": "I will talk about it.",
+      "ar": "سأتحدث عن الأمر."
+    },
+    {
+      "fr": "Ce n'est pas facile.",
+      "de": "Es ist nicht einfach.",
+      "en": "It is not easy.",
+      "ar": "هذا ليس سهلًا."
+    },
+    {
+      "fr": "Ça me paraît clair.",
+      "de": "Das erscheint mir klar.",
+      "en": "It seems clear to me.",
+      "ar": "يبدو الأمر واضحًا بالنسبة لي."
+    },
+    {
+      "fr": "Il n'a rien dit.",
+      "de": "Er hat nichts gesagt.",
+      "en": "He did not say anything.",
+      "ar": "لم يقل شيئًا."
+    },
+    {
+      "fr": "Je ne le crois pas.",
+      "de": "Ich glaube ihm das nicht.",
+      "en": "I do not believe him.",
+      "ar": "لا أصدقه."
+    },
+    {
+      "fr": "Il a changé d'avis.",
+      "de": "Er hat seine Meinung geändert.",
+      "en": "He changed his mind.",
+      "ar": "غير رأيه."
+    },
+    {
+      "fr": "C'est totalement refusé.",
+      "de": "Das wird vollständig abgelehnt.",
+      "en": "It is completely rejected.",
+      "ar": "هذا مرفوض تمامًا."
+    },
+    {
+      "fr": "Il ne s'en soucie pas / Il s'en fiche.",
+      "de": "Es ist ihm egal / Es kümmert ihn nicht.",
+      "en": "He does not care about it.",
+      "ar": "لا يهتم بالأمر / لا يبالي."
+    },
+    {
+      "fr": "Ça ne sert à rien.",
+      "de": "Das bringt nichts.",
+      "en": "There is no point.",
+      "ar": "لا فائدة من ذلك."
+    },
+    {
+      "fr": "Il a tout compris.",
+      "de": "Er hat alles verstanden.",
+      "en": "He understood everything.",
+      "ar": "لقد فهم كل شيء."
+    },
+    {
+      "fr": "Je l'ai déjà fait.",
+      "de": "Ich habe das schon gemacht.",
+      "en": "I have already done it.",
+      "ar": "لقد فعلت ذلك من قبل."
+    },
+    {
+      "fr": "Il n'est pas prêt.",
+      "de": "Er ist nicht bereit.",
+      "en": "He is not ready.",
+      "ar": "إنه غير مستعد."
+    },
+    {
+      "fr": "Ça m'énerve / Ça me dérange.",
+      "de": "Das ärgert mich / Das stört mich.",
+      "en": "It annoys me / It bothers me.",
+      "ar": "هذا يزعجني / يضايقني."
+    },
+    {
+      "fr": "Il a disparu.",
+      "de": "Er ist verschwunden.",
+      "en": "He disappeared.",
+      "ar": "لقد اختفى."
+    },
+    {
+      "fr": "Je n'ai pas le choix.",
+      "de": "Ich habe keine Wahl.",
+      "en": "I have no choice.",
+      "ar": "ليس لدي خيار."
+    },
+    {
+      "fr": "Il faut attendre.",
+      "de": "Man muss warten.",
+      "en": "We have to wait.",
+      "ar": "علينا الانتظار."
+    },
+    {
+      "fr": "Je me suis trompé / Je me suis trompée.",
+      "de": "Ich habe mich geirrt.",
+      "en": "I was wrong.",
+      "ar": "كنت مخطئًا / مخطئة."
+    },
+    {
+      "fr": "Ça ne marche pas.",
+      "de": "Das funktioniert nicht.",
+      "en": "It does not work.",
+      "ar": "هذا لا يعمل."
+    },
+    {
+      "fr": "Il a refusé.",
+      "de": "Er hat abgelehnt.",
+      "en": "He refused.",
+      "ar": "لقد رفض."
+    },
+    {
+      "fr": "Je préfère ça.",
+      "de": "Das ist mir lieber.",
+      "en": "I prefer this.",
+      "ar": "أفضل هذا."
+    },
+    {
+      "fr": "C'est trop tard.",
+      "de": "Es ist zu spät.",
+      "en": "It is too late.",
+      "ar": "لقد فات الأوان."
+    },
+    {
+      "fr": "Ça m'étonne / Ça me surprend.",
+      "de": "Das wundert mich / Das überrascht mich.",
+      "en": "It surprises me.",
+      "ar": "هذا يدهشني / يفاجئني."
+    },
+    {
+      "fr": "Il a réussi.",
+      "de": "Er hat es geschafft.",
+      "en": "He succeeded.",
+      "ar": "لقد نجح."
+    },
+    {
+      "fr": "Je vais essayer.",
+      "de": "Ich werde es versuchen.",
+      "en": "I will try.",
+      "ar": "سأحاول."
+    },
+    {
+      "fr": "Ça me suffit.",
+      "de": "Das reicht mir.",
+      "en": "That is enough for me.",
+      "ar": "هذا يكفيني."
+    },
+    {
+      "fr": "Il a insisté.",
+      "de": "Er hat darauf bestanden.",
+      "en": "He insisted.",
+      "ar": "لقد أصر."
+    },
+    {
+      "fr": "Je suis fatigué(e).",
+      "de": "Ich bin müde.",
+      "en": "I am tired.",
+      "ar": "أنا متعب / متعبة."
+    },
+    {
+      "fr": "Il a oublié.",
+      "de": "Er hat es vergessen.",
+      "en": "He forgot.",
+      "ar": "لقد نسي."
+    },
+    {
+      "fr": "Je n'ai rien vu.",
+      "de": "Ich habe nichts gesehen.",
+      "en": "I did not see anything.",
+      "ar": "لم أر شيئًا."
+    },
+    {
+      "fr": "Il a tout perdu.",
+      "de": "Er hat alles verloren.",
+      "en": "He lost everything.",
+      "ar": "لقد فقد كل شيء."
+    },
+    {
+      "fr": "Ça me plaît.",
+      "de": "Das gefällt mir.",
+      "en": "I like it.",
+      "ar": "هذا يعجبني."
+    },
+    {
+      "fr": "Il a menti.",
+      "de": "Er hat gelogen.",
+      "en": "He lied.",
+      "ar": "لقد كذب."
+    },
+    {
+      "fr": "Je vais revenir / Je serai de retour.",
+      "de": "Ich komme zurück / Ich werde wieder da sein.",
+      "en": "I will come back / I will be back.",
+      "ar": "سأعود / سأكون هنا مجددًا."
+    },
+    {
+      "fr": "Ça me rassure.",
+      "de": "Das beruhigt mich.",
+      "en": "That reassures me.",
+      "ar": "هذا يطمئنني."
+    },
+    {
+      "fr": "Il a essayé.",
+      "de": "Er hat es versucht.",
+      "en": "He tried.",
+      "ar": "لقد حاول."
+    },
+    {
+      "fr": "Je ne comprends pas.",
+      "de": "Ich verstehe nicht.",
+      "en": "I do not understand.",
+      "ar": "لا أفهم."
+    },
+    {
+      "fr": "Ça me choque.",
+      "de": "Das schockiert mich.",
+      "en": "It shocks me.",
+      "ar": "هذا يصدمني."
+    },
+    {
+      "fr": "Il a abandonné.",
+      "de": "Er hat aufgegeben.",
+      "en": "He gave up.",
+      "ar": "لقد استسلم."
+    },
+    {
+      "fr": "Je vais vérifier.",
+      "de": "Ich werde es überprüfen.",
+      "en": "I will check.",
+      "ar": "سأتحقق من الأمر."
+    },
+    {
+      "fr": "Tu exagères.",
+      "de": "Du übertreibst.",
+      "en": "You are exaggerating.",
+      "ar": "أنت تبالغ."
+    },
+    {
+      "fr": "Il a échoué.",
+      "de": "Er ist gescheitert.",
+      "en": "He failed.",
+      "ar": "لقد فشل."
+    },
+    {
+      "fr": "Je vais partir.",
+      "de": "Ich werde gehen.",
+      "en": "I am going to leave.",
+      "ar": "سأغادر."
+    },
+    {
+      "fr": "Ça me manque.",
+      "de": "Ich vermisse es.",
+      "en": "I miss it.",
+      "ar": "أفتقد ذلك."
+    },
+    {
+      "fr": "Il a triché.",
+      "de": "Er hat betrogen.",
+      "en": "He cheated.",
+      "ar": "لقد غش."
+    }
+  ]
+}

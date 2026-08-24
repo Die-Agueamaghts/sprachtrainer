@@ -1,0 +1,65 @@
+{
+  "id": "alltag",
+  "sentences": [
+    {
+      "de": "Guten Morgen, wie geht es dir?",
+      "en": "Good morning, how are you?",
+      "fr": "Bonjour, comment vas-tu ?",
+      "ar": "صباح الخير، كيف حالك؟"
+    },
+    {
+      "de": "Ich trinke jeden Morgen einen Kaffee.",
+      "en": "I drink a coffee every morning.",
+      "fr": "Je bois un café chaque matin.",
+      "ar": "أشرب فنجان قهوة كل صباح."
+    },
+    {
+      "de": "Wo ist der nächste Bahnhof?",
+      "en": "Where is the nearest train station?",
+      "fr": "Où se trouve la gare la plus proche ?",
+      "ar": "أين أقرب محطة قطار؟"
+    },
+    {
+      "de": "Ich habe heute viel zu tun.",
+      "en": "I have a lot to do today.",
+      "fr": "J'ai beaucoup à faire aujourd'hui.",
+      "ar": "لدي الكثير لأفعله اليوم."
+    },
+    {
+      "de": "Kannst du mir bitte helfen?",
+      "en": "Can you help me, please?",
+      "fr": "Peux-tu m'aider, s'il te plaît ?",
+      "ar": "هل يمكنك مساعدتي من فضلك؟"
+    },
+    {
+      "de": "Wie spät ist es?",
+      "en": "What time is it?",
+      "fr": "Quelle heure est-il ?",
+      "ar": "كم الساعة الآن؟"
+    },
+    {
+      "de": "Das Wetter ist heute sehr schön.",
+      "en": "The weather is very nice today.",
+      "fr": "Il fait très beau aujourd'hui.",
+      "ar": "الطقس جميل جدًا اليوم."
+    },
+    {
+      "de": "Ich muss noch einkaufen gehen.",
+      "en": "I still need to go shopping.",
+      "fr": "Je dois encore aller faire les courses.",
+      "ar": "ما زال علي أن أذهب للتسوق."
+    },
+    {
+      "de": "Bis morgen, schlaf gut!",
+      "en": "See you tomorrow, sleep well!",
+      "fr": "À demain, dors bien !",
+      "ar": "أراك غدًا، نم جيدًا!"
+    },
+    {
+      "de": "Wo hast du deine Schlüssel hingelegt?",
+      "en": "Where did you put your keys?",
+      "fr": "Où as-tu mis tes clés ?",
+      "ar": "أين وضعت مفاتيحك؟"
+    }
+  ]
+}

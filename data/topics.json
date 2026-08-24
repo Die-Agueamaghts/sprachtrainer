@@ -1,0 +1,37 @@
+[
+  {
+    "id": "alltag",
+    "file": "alltag.json",
+    "name": {
+      "de": "Alltag",
+      "en": "Everyday Life",
+      "fr": "Quotidien",
+      "ar": "الحياة اليومية"
+    }
+  },
+  {
+    "id": "reisen",
+    "file": "reisen.json",
+    "name": { "de": "Reisen", "en": "Travel", "fr": "Voyage", "ar": "السفر" }
+  },
+  {
+    "id": "essen",
+    "file": "essen.json",
+    "name": {
+      "de": "Essen & Restaurant",
+      "en": "Food & Dining",
+      "fr": "Nourriture & Restaurant",
+      "ar": "الطعام والمطعم"
+    }
+  },
+  {
+    "id": "alltag_und_kommunikation_001",
+    "file": "alltag_und_kommunikation_001.json",
+    "name": {
+      "de": "Alltag & Kommunikation",
+      "en": "Everyday Life & Communication",
+      "fr": "Quotidien & Communication",
+      "ar": "الحياة اليومية والتواصل"
+    }
+  }
+]

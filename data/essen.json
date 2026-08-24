@@ -1,0 +1,47 @@
+{
+  "id": "essen",
+  "sentences": [
+    {
+      "de": "Ich hätte gerne einen Tisch für zwei Personen.",
+      "en": "I would like a table for two people.",
+      "fr": "Je voudrais une table pour deux personnes.",
+      "ar": "أريد طاولة لشخصين."
+    },
+    {
+      "de": "Was können Sie mir empfehlen?",
+      "en": "What can you recommend to me?",
+      "fr": "Que pouvez-vous me recommander ?",
+      "ar": "بماذا تنصحني؟"
+    },
+    {
+      "de": "Die Suppe schmeckt sehr lecker.",
+      "en": "The soup tastes very delicious.",
+      "fr": "La soupe est vraiment délicieuse.",
+      "ar": "الحساء لذيذ جدًا."
+    },
+    {
+      "de": "Ich bin allergisch gegen Nüsse.",
+      "en": "I am allergic to nuts.",
+      "fr": "Je suis allergique aux noix.",
+      "ar": "أنا أعاني من حساسية تجاه المكسرات."
+    },
+    {
+      "de": "Können wir bitte die Rechnung haben?",
+      "en": "Can we have the bill, please?",
+      "fr": "Pouvons-nous avoir l'addition, s'il vous plaît ?",
+      "ar": "هل يمكننا الحصول على الفاتورة من فضلك؟"
+    },
+    {
+      "de": "Dieses Restaurant ist mein Lieblingsort zum Essen.",
+      "en": "This restaurant is my favorite place to eat.",
+      "fr": "Ce restaurant est mon endroit préféré pour manger.",
+      "ar": "هذا المطعم هو مكاني المفضل لتناول الطعام."
+    },
+    {
+      "de": "Möchtest du etwas trinken?",
+      "en": "Would you like something to drink?",
+      "fr": "Veux-tu boire quelque chose ?",
+      "ar": "هل تريد شيئًا لتشربه؟"
+    }
+  ]
+}

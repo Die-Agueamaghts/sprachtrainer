@@ -1,0 +1,53 @@
+{
+  "id": "reisen",
+  "sentences": [
+    {
+      "de": "Ich möchte ein Ticket nach Paris kaufen.",
+      "en": "I would like to buy a ticket to Paris.",
+      "fr": "Je voudrais acheter un billet pour Paris.",
+      "ar": "أريد شراء تذكرة إلى باريس."
+    },
+    {
+      "de": "Wann fliegt das nächste Flugzeug ab?",
+      "en": "When does the next plane depart?",
+      "fr": "Quand décolle le prochain avion ?",
+      "ar": "متى تقلع الطائرة التالية؟"
+    },
+    {
+      "de": "Wo kann ich ein Hotelzimmer buchen?",
+      "en": "Where can I book a hotel room?",
+      "fr": "Où puis-je réserver une chambre d'hôtel ?",
+      "ar": "أين يمكنني حجز غرفة فندق؟"
+    },
+    {
+      "de": "Mein Koffer ist verloren gegangen.",
+      "en": "My suitcase has been lost.",
+      "fr": "Ma valise a été perdue.",
+      "ar": "لقد فقدت حقيبتي."
+    },
+    {
+      "de": "Wie komme ich zum Flughafen?",
+      "en": "How do I get to the airport?",
+      "fr": "Comment puis-je aller à l'aéroport ?",
+      "ar": "كيف أصل إلى المطار؟"
+    },
+    {
+      "de": "Ich brauche ein Visum für dieses Land.",
+      "en": "I need a visa for this country.",
+      "fr": "J'ai besoin d'un visa pour ce pays.",
+      "ar": "أحتاج إلى تأشيرة لهذا البلد."
+    },
+    {
+      "de": "Der Zug hat zwanzig Minuten Verspätung.",
+      "en": "The train is twenty minutes late.",
+      "fr": "Le train a vingt minutes de retard.",
+      "ar": "تأخر القطار عشرين دقيقة."
+    },
+    {
+      "de": "Können Sie mir eine gute Sehenswürdigkeit empfehlen?",
+      "en": "Can you recommend a good sight to see?",
+      "fr": "Pouvez-vous me recommander un site intéressant à visiter ?",
+      "ar": "هل يمكنك أن توصي لي بمكان سياحي جيد؟"
+    }
+  ]
+}
