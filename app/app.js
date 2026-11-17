@@ -147,7 +147,7 @@ async function loadTopicsIndex() {
     const card = document.createElement("label");
     card.className = "topic-card";
     card.innerHTML = `
-      <input type="checkbox" name="topic" value="${topic.id}" checked>
+      <input type="checkbox" name="topic" value="${topic.id}">
       <span class="topic-name">${topic.name.de}</span>
       <span class="topic-count" data-count-for="${topic.id}">wird geladen…</span>`;
     wrap.appendChild(card);
