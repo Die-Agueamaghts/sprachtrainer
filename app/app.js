@@ -439,6 +439,7 @@ function renderCurrentItem() {
   stopReading();
   hideVoiceWarning();
   state.checked = false;
+  $("#previousBtn").disabled = state.current === 0;
   const sentence = state.pool[state.current];
   const { source, targets, mode } = state.settings;
 
@@ -597,7 +598,7 @@ function checkAnswers() {
   });
 
   state.checked = true;
-  state.results.push({ sentence, given: givenAnswers, allCorrect });
+  state.results[state.current] = { sentence, given: givenAnswers, allCorrect };
   updateProgress();
 
   $("#nextBtn").textContent =
@@ -613,12 +614,18 @@ $("#nextBtn").addEventListener("click", () => {
     return;
   }
   if (state.settings.mode === "learn") {
-    state.results.push({
+    state.results[state.current] = {
       sentence: state.pool[state.current],
       allCorrect: true,
-    });
+    };
   }
   advance();
+});
+
+$("#previousBtn").addEventListener("click", () => {
+  if (state.current === 0) return;
+  state.current--;
+  renderCurrentItem();
 });
 
 function advance() {

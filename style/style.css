@@ -505,6 +505,10 @@ main {
 .btn:active {
   transform: scale(0.97);
 }
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
 .btn-primary {
   background: var(--accent);
   color: #fff;
@@ -842,6 +846,10 @@ main {
   font-size: 0.82rem;
   color: var(--ink-soft);
 }
+.study-actions {
+  display: flex;
+  gap: 10px;
+}
 
 /* ---------- Results ---------- */
 .results-wrap {
@@ -1036,6 +1044,9 @@ main {
   .study-footer .btn {
     justify-content: center;
     width: 100%;
+  }
+  .study-actions {
+    flex-direction: column-reverse;
   }
   .results-actions {
     flex-direction: column;
