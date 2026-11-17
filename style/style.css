@@ -231,6 +231,39 @@ main {
   flex-wrap: wrap;
   gap: 8px;
 }
+.voice-status {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+.voice-status-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+}
+.voice-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--wrong);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.04);
+}
+.voice-status-item.is-ready .voice-status-dot {
+  background: var(--correct);
+}
+.voice-status-item.is-unknown .voice-status-dot {
+  background: var(--amber);
+}
+.voice-test-btn {
+  margin-top: 12px;
+}
 .chip {
   position: relative;
   cursor: pointer;
@@ -791,6 +824,18 @@ main {
   justify-content: space-between;
   gap: 14px;
   flex-wrap: wrap;
+}
+.voice-warning {
+  width: 100%;
+  margin: 0 0 8px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(214, 130, 38, 0.35);
+  background: rgba(214, 130, 38, 0.08);
+  color: var(--ink);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  text-align: center;
 }
 .study-hint {
   margin: 0;

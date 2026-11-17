@@ -73,8 +73,41 @@ function buildLangChips() {
   });
 
   // keep target choices from including the source language
-  sourceWrap.addEventListener("change", syncTargetAvailability);
+  sourceWrap.addEventListener("change", () => {
+    syncTargetAvailability();
+    updateVoiceStatus();
+  });
   syncTargetAvailability();
+  updateVoiceStatus();
+}
+
+function updateVoiceStatus() {
+  const wrap = document.getElementById("voiceStatus");
+  if (!wrap) return;
+
+  if (!window.speechSynthesis) {
+    wrap.innerHTML = '<span class="voice-status-item is-unknown"><span class="voice-status-dot"></span>Vorlesen nicht unterstützt</span>';
+    return;
+  }
+
+  const voices = window.speechSynthesis.getVoices?.() || [];
+  const status = Object.entries(LANGS)
+    .map(([code, info]) => {
+      const hasVoice = voices.some((voice) => {
+        const lang = (voice.lang || "").toLowerCase();
+        const key = (SPEECH_LANGS[code] || "").toLowerCase();
+        return lang === key || lang.startsWith(key.split("-")[0]);
+      });
+      return `
+        <span class="voice-status-item ${hasVoice ? "is-ready" : "is-unknown"}">
+          <span class="voice-status-dot"></span>
+          ${info.native}: ${hasVoice ? "vorlesbar" : "keine Stimme"}
+        </span>
+      `;
+    })
+    .join("");
+
+  wrap.innerHTML = status;
 }
 
 function syncTargetAvailability() {
@@ -297,22 +330,77 @@ function stopReading() {
   });
 }
 
-function readText(text, lang, button) {
-  if (!window.speechSynthesis) return;
-  if (button.classList.contains("is-speaking")) {
+function getPreferredVoice(lang) {
+  const voices = window.speechSynthesis?.getVoices?.() || [];
+  const langKey = (SPEECH_LANGS[lang] || lang || "").toLowerCase();
+  const exact = voices.find(
+    (voice) => voice.lang && voice.lang.toLowerCase() === langKey,
+  );
+  if (exact) return exact;
+
+  const familyMatch = voices.find((voice) => {
+    const voiceLang = (voice.lang || "").toLowerCase();
+    return voiceLang.startsWith(langKey.split("-")[0]);
+  });
+  if (familyMatch) return familyMatch;
+
+  return voices.find((voice) => /^(de|en|fr|ar)/i.test(voice.lang || "")) || null;
+}
+
+function showVoiceWarning(lang) {
+  const messageEl = document.getElementById("voiceWarning");
+  if (!messageEl) return;
+  const name = LANGS[lang]?.label || lang?.toUpperCase() || "Sprache";
+  messageEl.textContent = `Keine passende ${name}-Stimme gefunden. Das Vorlesen ist in diesem Browser/Computer nicht verfügbar.`;
+  messageEl.hidden = false;
+}
+
+function hideVoiceWarning() {
+  const messageEl = document.getElementById("voiceWarning");
+  if (messageEl) messageEl.hidden = true;
+}
+
+function ensureVoiceNoticeForLanguage(lang) {
+  if (!window.speechSynthesis) {
+    showVoiceWarning(lang);
+    return;
+  }
+  const voice = getPreferredVoice(lang);
+  if (!voice) {
+    showVoiceWarning(lang);
+    return;
+  }
+  hideVoiceWarning();
+}
+
+function readText(text, lang, button = null) {
+  if (!window.speechSynthesis) {
+    showVoiceWarning(lang);
+    return;
+  }
+  if (button && button.classList.contains("is-speaking")) {
     stopReading();
+    return;
+  }
+
+  const voice = getPreferredVoice(lang);
+  if (!voice) {
+    showVoiceWarning(lang);
     return;
   }
 
   stopReading();
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = SPEECH_LANGS[lang];
+  utterance.lang = SPEECH_LANGS[lang] || lang || "de-DE";
+  utterance.voice = voice;
   utterance.rate = 0.9;
   utterance.onend = stopReading;
   utterance.onerror = stopReading;
-  button.classList.add("is-speaking");
-  button.setAttribute("aria-label", "Vorlesen stoppen");
-  button.title = "Vorlesen stoppen";
+  if (button) {
+    button.classList.add("is-speaking");
+    button.setAttribute("aria-label", "Vorlesen stoppen");
+    button.title = "Vorlesen stoppen";
+  }
   window.speechSynthesis.speak(utterance);
 }
 
@@ -322,6 +410,18 @@ function readCurrentSentence() {
 }
 
 $("#readSentenceBtn").addEventListener("click", readCurrentSentence);
+
+$("#voiceTestBtn").addEventListener("click", () => {
+  const sourceEl = $('input[name="sourceLang"]:checked');
+  const source = sourceEl ? sourceEl.value : "de";
+  const sampleText = {
+    de: "Hallo, wie geht es dir?",
+    en: "Hello, how are you?",
+    fr: "Bonjour, comment ça va ?",
+    ar: "مرحبا، كيف حالك؟",
+  }[source] || "Hallo";
+  readText(sampleText, source);
+});
 
 function updateProgress() {
   const total = state.pool.length;
@@ -337,9 +437,16 @@ function updateProgress() {
 
 function renderCurrentItem() {
   stopReading();
+  hideVoiceWarning();
   state.checked = false;
   const sentence = state.pool[state.current];
   const { source, targets, mode } = state.settings;
+
+  if (source) ensureVoiceNoticeForLanguage(source);
+  if (Array.isArray(targets)) {
+    const missingTarget = targets.find((lang) => !getPreferredVoice(lang));
+    if (missingTarget) showVoiceWarning(missingTarget);
+  }
 
   updateProgress();
 
@@ -613,6 +720,10 @@ document.addEventListener("change", (event) => {
 /* ---------------- Init ---------------- */
 (async function init() {
   buildLangChips();
+  if (window.speechSynthesis) {
+    window.speechSynthesis.onvoiceschanged = updateVoiceStatus;
+  }
+  updateVoiceStatus();
   $("#startBtn").disabled = true;
   await loadTopicsIndex();
   restoreLastSettings();

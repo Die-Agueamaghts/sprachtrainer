@@ -97,6 +97,14 @@
                   role="radiogroup"
                   aria-label="Ausgangssprache"
                 ></div>
+                <div id="voiceStatus" class="voice-status" aria-live="polite"></div>
+                <button
+                  id="voiceTestBtn"
+                  class="btn btn-secondary btn-sm voice-test-btn"
+                  type="button"
+                >
+                  Sprachtest
+                </button>
               </div>
 
               <div class="field-group">
@@ -286,6 +294,7 @@
           </div>
 
           <div class="study-footer">
+            <p id="voiceWarning" class="voice-warning" hidden></p>
             <p id="studyHint" class="study-hint">
               Enter drücken oder auf „Weiter“ klicken.
             </p>

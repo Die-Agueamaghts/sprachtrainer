@@ -33,5 +33,15 @@
       "fr": "Quotidien & Communication",
       "ar": "الحياة اليومية والتواصل"
     }
+  },
+  {
+    "id": "das_sind_meine_nachbarn",
+    "file": "das_sind_meine_nachbarn.json",
+    "name": {
+      "de": "Das sind meine Nachbarn",
+      "en": "These are my neighbors",
+      "fr": "Voici mes voisins",
+      "ar": "هؤلاء جيراني"
+    }
   }
 ]

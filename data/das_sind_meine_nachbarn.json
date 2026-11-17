@@ -1,0 +1,35 @@
+{
+  "id": "das_sind_meine_nachbarn",
+  "sentences": [
+    {
+      "de": "Das sind meine Nachbarn",
+      "en": "These are my neighbors",
+      "fr": "Voici mes voisins",
+      "ar": "هؤلاء جيراني"
+    },
+    {
+      "de": "Eine Schildkröte entschied sich, mit freundlichen Nachbarn zusammenzuleben, die auf einem Hügel mitten im Wald wohnten. Sie verband eine enge Freundschaft.",
+      "en": "A turtle chose to live with kind neighbors who resided on a hill in the middle of the forest. They were bound by a close friendship.",
+      "fr": "Une tortue choisit de vivre avec de gentils voisins qui habitaient sur une colline au milieu de la forêt. Une étroite amitié les unissait.",
+      "ar": "اِخْتَارَتْ سُلَحْفَاةٌ الْعَيْشَ مَعَ جِيرَانٍ طَيِّبِينَ يُقِيمُونَ فِي هَضْبَةٍ وَسَطَ الْغَابَةِ. رَبَطَتْهُمْ صَدَاقَةٌ حَمِيمَةٌ."
+    },
+    {
+      "de": "So spielten sie zusammen, streiften gemeinsam umher und teilten bei jeder Mahlzeit das Essen untereinander.",
+      "en": "So they played together, roamed around together, and shared food among themselves at every meal.",
+      "fr": "Ainsi, ils jouaient ensemble, se promenaient ensemble et partageaient la nourriture entre eux à chaque repas.",
+      "ar": "فَكَانُوا يَلْعَبُونَ مَعًا، وَيَسْرَحُونَ مَعًا، وَيَتَقَاسَمُونَ الطَّعَامَ بَيْنَهُمْ فِي كُلِّ وَجْبَةٍ."
+    },
+    {
+      "de": "Eine einzige Sache beunruhigte die Schildkröte: dass sich ihre Wasserquelle weit entfernt vom Hügel befand. Deshalb musste die Schildkröte jedes Mal, wenn sie trinken oder baden wollte, die Mühen des Weges hin und zurück auf sich nehmen.",
+      "en": "One thing worried the turtle: that their water source was located far away from the hill. Therefore, whenever the turtle needed to drink or bathe, she had to endure the hardship of traveling back and forth.",
+      "fr": "Une seule chose inquiétait la tortue : leur source d'eau se trouvait loin de la colline. Ainsi, chaque fois que la tortue avait besoin de boire ou de se baigner, elle devait endurer la fatigue de l'aller-retour.",
+      "ar": "شَيْءٌ وَاحِدٌ كَانَ يُقْلِقُ السُّلَحْفَاةَ، أَنَّ مَصْدَرَ مَائِهِمْ يَقَعُ عَلَى مَسَافَةٍ بَعِيدَةٍ مِنَ الْهَضْبَةِ. فَكَانَ عَلَى السُّلَحْفَاةِ، كُلَّمَا احْتَاجَتْ لِلشُّرْبِ أَوِ الِاسْتِحْمَامِ، أَنْ تَتَحَمَّلَ مَشَاقَّ التَّنَقُّلِ، ذَهَابًا وَإِيَّابًا."
+    },
+    {
+      "de": "Und dieses Hindernis hielt sie oft davon ab, beim Spielen mit ihren Freunden dabei zu sein.",
+      "en": "And this obstacle often prevented her from attending playtime with her friends.",
+      "fr": "Et cet obstacle l'empêchait souvent de participer aux moments de jeu avec ses amis.",
+      "ar": "وَهَذَا الْعَائِقُ كَثِيرًا مَا كَانَ يَحْرِمُهَا مِنْ حُضُورِ مُنَاسَبَاتِ اللَّعِبِ مَعَ أَصْدِقَائِهَا."
+    }
+  ]
+}
